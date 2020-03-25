@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: rgba(43, 42, 42, 0.637);
+}
+
+.container {
+    padding: 40px 129px 93px;
+    background-color: #ffffff;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 24px;
+    font-size: 24px;
+}
+
+.content li {
+   margin: 10px 0;
+}
