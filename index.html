@@ -6,30 +6,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" href="./style.css">
+        <script src="/frontend/script.js" ></script>
+
     </head>
     <body>
-         <h1>First Web Page</h1>
-         <p>Kindly do exactly what you see here as it would affect your score <br> 
-            Whether it is your first webpage in life or not, use the heading above it, won't bite...
-        </p>   
-        <h2>H2 heading</h2>
-        <p>As a best practice, your webpage should have just one</p>
-        <p>element</p>
-        <h3>h3 heading</h3>
-        <p>This test is too simple to fail.<br>
-            It is simply a test of how much you have been following the course.
-        </p>
-        <p>Thanks.. Wait..<br>You will have to upload this project to github.. Yea.</p>
-        <h4>H4 heading</h4>
-        <p>Use the file structure that will be shown below</p>
-        <ul>
-            <li>:::first_webpage:::
-                <ul>
-                    <li>--------:::index.html:::</li>
-                    <li>--------:::style.css:::</li>
-                    <li>--------:::script.js:::</li>
-                </ul>
-            </li>
-        </ul>
+        <div class="container">
+            <img src="https://res.cloudinary.com/kinkidy/image/upload/v1585958104/start.ng/logo.png">
+            <form>
+                <h3>Create a Secure Account</h3>
+                <p>Welcome to the future of Savings & Investments</p>
+
+                <div class="form-details">
+                    <label>Full Name</label>
+                    <input type="text" name="full-name" placeholder="Full Name" >
+                </div>
+                <div class="form-details">
+                    <label>Email Address</label>
+                    <input type="email" name="email" placeholder="Email Address" >
+                </div>
+                <div class="form-details">
+                    <label>Phone Number</label>
+                    <input type="text" name="phone-number" placeholder="Phone Number" >
+                </div>
+                <div class="form-details">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Password" >
+                </div>
+                <div class="form-details">
+                    <label>How Did You Hear About Us? (Optional)</label>
+                    <select>
+                        <option value=">">Click to Select</option>
+                        <option value=">">Facebook</option>
+                        <option value=">">Twitter</option>
+                        <option value=">">Instagram</option>
+                        <option value=">">Friend/Family/Co-worker Referral</option>
+                        <option value=">">Google Search</option>
+                        <option value=">">Google PlayStore</option>
+                        <option value=">">Online Blog </option>
+                        <option value=">">Local Newspaper</option>
+                        <option value=">">At an Event</option>
+                        <option value=">">Other</option>
+                    </select>
+                </div>
+                <button>CREATE ACCOUNT</button>
+            </form>
+            <p class="log-in">Already have an account? Log In</p>
+        </div>
     </body>
+    <script src="script.js"></script>
 </html>
